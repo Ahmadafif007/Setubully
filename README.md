@@ -11,6 +11,6 @@
 4. F350X0909 - M Ardan Dimyathi Alliance
 
 ### Daftar Isi :
-1. [Desain Website](https://www.figma.com/file/H0FbYno4qUhD31tvkWVuCl/UI-SETUBULLY?node-id=13%3A2&t=ukxJejXbSRvnQMeA-0)
+1. [Desain Website](https://www.figma.com/file/H0FbYno4qUhD31tvkWVuCl/UI-SETUBULLY?node-id=0%3A1&t=2Z4PPOzqlFVIzm4p-1)
 
 <hr>
