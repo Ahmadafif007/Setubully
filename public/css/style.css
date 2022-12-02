@@ -1,0 +1,92 @@
+head{
+  background-color:linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;;
+  /* font-family: "Cinzel", serif; */
+  /* background-image: url("/images/rehab.jpg"); */
+  /* background-color:linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%); */
+  background-color:#0d6efd;
+  background-size: cover;
+  height: 100vh;
+  color: rgb(34, 33, 33);
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.customCard {
+  opacity: 0.9;
+  padding: 0px;
+}
+
+#logo-text {
+  color: rgb(46, 131, 228);
+}
+
+.user-comment {
+  font-size: 1.3rem;
+}
+
+a {
+  color: rgb(34, 33, 33);
+  /* text-shadow: 2px 2px 8px #000000; */
+}
+
+#phone {
+text-decoration: none;
+}
+
+a:hover {
+  color: rgb(34, 33, 33);
+}
+
+.stories {
+  margin-top: 7rem;
+}
+
+.home-images {
+  width: 500px;
+  height: 300px;
+}
+
+.milestone-description {
+  font-size: 20px;
+}
+
+/* comment testing*/
+
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  padding-top: 70px;
+  margin-bottom: -20px;
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.parallax>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
