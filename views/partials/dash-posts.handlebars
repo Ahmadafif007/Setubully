@@ -1,0 +1,18 @@
+
+    <div class="card
+          align
+          mx-4
+          mt-4
+          bg-light
+          text-black
+          customCard">
+        <h4 class="card-header"><a href="dashboard/edit/{{id}}">Post</a></h4>
+        <section class="card-body">
+            <div>
+                {{post_text}}
+            </div>
+            <div>
+                {{user.username}}, {{format_date date_created}}
+            </div>
+        </section>
+    </div>
