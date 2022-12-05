@@ -1,0 +1,60 @@
+<div
+  class="card justify-content-center mx-5 mt-5 bg-light text-black customCard" style="width: 28rem;">
+  <div class="card-body align
+          mx-4
+          mt-4
+          bg-light
+          text-black
+          customCard "  style="width: 25rem;">
+    <h4 class="card-title">
+      Login
+    </h4>
+    <hr />  
+    <form id="login-form" class="card-body">
+      <label class="form-label" for="username-login">Username</label>
+      <div class="input-group mb-3">
+        <input
+          id="username-login"
+          type="text"
+          class="form-control"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default"
+        />
+      </div>
+
+      <label class="form-label" for="password-login">Password</label>
+      <div class="input-group mb-3">
+        <input
+          id="password-login"
+          autocomplete="current-password"
+          type="password"
+          class="form-control"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default"
+        />
+      </div>
+      <div class="d-grid gap-3">
+        <button type="submit" class="btn btn btn-secondary">Login!</button>
+      </div>
+      <br />
+      <a class="login-link text-decoration-none" href="/signup">Sign up instead</a>
+    </form>
+  </div>
+</div>
+<div>
+<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+  </defs>
+  <g class="parallax">
+    <use xlink:href="#gentle-wave" x="100" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="75" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="50" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="20" y="7" fill="#ffff" />
+  </g>
+</svg>
+</div>
+
+<style src="/public/css/style.css"></style>
+<script src="/js/login.js"></script>
