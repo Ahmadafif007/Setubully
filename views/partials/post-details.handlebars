@@ -1,0 +1,21 @@
+
+<div>
+  {{#each posts as |post|}}
+    <div class="card
+          align
+          mx-4
+          mt-4
+          bg-light
+          text-black
+          customCard" >
+        <section class="card-body">
+            <div>
+                {{post.post_text}}
+            </div>
+            <div>
+                <a href="/user/{{post.user.id}}">{{post.user.username}}</a>, {{format_date post.date_created}}
+            </div>
+        </section>
+    </div>
+  {{/each}}
+</div>
