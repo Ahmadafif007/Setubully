@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="/pages/pelaporan/pelaporan.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container-fluid ">
+                <a class="navbar-brand text-white" href="#">SETUBULLY</a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pelaporan
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Formulir</a></li>
+                                <li><a class="dropdown-item" href="#">Status Laporan</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link text-white" href="#">Tips & Info</a>
+                        <a class="nav-link text-white" href="#">Forum Diskusi</a>
+                        <a class="nav-link text-white" href="#">Daftar</a>
+                        <a class="nav-link text-white" href="#">Masuk</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="over-container">
+            <div class="reporting-container">
+                <div class="context-title">
+                    <p>Pengisian formulir laporan</p>
+                    <span class="context-bold">Pilih identitas</span>
+                </div>
+        <form class="anonimity-container" method="post" >
+            <div class="anonimity-button">
+                <label class="anonimity-button-item" id="anonimity-item1">
+                    <input class="isName" type="radio" name="isAnon" value="no" />
+                    Dengan Nama
+                </label>
+                <label class="anonimity-button-item" id="anonimity-item2">
+                    <input class="isAnon" type="radio" name="isAnon" value="yes" />
+                    Anonim
+                </label>
+            </div>
+            <a class="button" href="/pages/pelaporan/Jenis-pelaporan.html">
+                <button class="btn btn-info" type="button">Lanjutkan</button>
+            </a>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>SETUBULLY</span></strong>. All Rights Reserved
+                </div>
+            </div>
+        </footer><!-- End Footer -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
