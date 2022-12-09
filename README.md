@@ -8,7 +8,7 @@
 1. F120Y0178 - Fivy Nur Safitri
 2. F120X0169 - Ahmad Afif Wildan 
 3. F110X0143 - Muhammad Adji Pratama
-4. F350X0909 - M Ardan Dimyathi Alliance
+4. F350X0909 - M Ardan Dimyathi Alfian
 
 ### Fitur - Fitur
 * Tips & Informasi : 
