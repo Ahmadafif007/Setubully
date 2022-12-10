@@ -1,18 +1,29 @@
 
-    <div class="card
-          align
-          mx-4
-          mt-4
-          bg-light
-          text-black
-          customCard">
-        <h4 class="card-header"><a href="dashboard/edit/{{id}}">Post</a></h4>
-        <section class="card-body">
-            <div>
-                {{post_text}}
+<section class="card-body">
+<div class="container mt-2 mb-5">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="d-flex justify-content-between p-2 px-3">
+                    <div class="d-flex flex-row align-items-center"> <img src="https://user-images.githubusercontent.com/82244776/134595680-b39c82e2-0d0d-40bb-a0d6-0a6cd7899227.png" width="50" class="rounded-circle">
+                        <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">&emsp;{{user.username}}</span> <small class="text-primary">{{user.about}}</small> </div>
+                    </div>
+                    <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">{{format_date date_created}}</small> <i class="fa fa-ellipsis-h"></i> </div>
+                </div> 
+                <div class="p-2">
+                    <p class="d-flex">{{post_text}}</p>
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i class="fa fa-smile-o ml-2"></i> </div>
+                        <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+                    </div>
+                    <hr>
+                    <div class="comments" style="text-align: center;">
+                        <a role="button" class="btnProfile btn btn-primary text-decoration-none" href="dashboard/edit/{{id}}">Edit</a>
+                    </div>
+                </div>
             </div>
-            <div>
-                {{user.username}}, {{format_date date_created}}
-            </div>
-        </section>
+        </div>
     </div>
+</div>
+</section>
