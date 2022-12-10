@@ -17,15 +17,17 @@
 
 ### Daftar Isi :
 1. [Desain Website](https://www.figma.com/file/H0FbYno4qUhD31tvkWVuCl/UI-SETUBULLY?node-id=0%3A1&t=2Z4PPOzqlFVIzm4p-1)
-2. [LoginSignUp](https://github.com/Ahmadafif007/Setubully/tree/LoginSignup)
-3. [Pelaporan](https://github.com/Ahmadafif007/Setubully/tree/Pelaporan)
+2. [Project Brief]()
+3. [Vidio Demo]()
+3. [LoginSignUp](https://github.com/Ahmadafif007/Setubully/tree/LoginSignup)
+4. [Pelaporan](https://github.com/Ahmadafif007/Setubully/tree/Pelaporan)
 
-<hr>
-###How to use Repository
+### How to use Repository :
 1. npm install
   To install all package needed in this depedency
 2. Turn on your server mysql, and then adjust the dialect, user, and password of your mysql server. first adjust is in the file .env and then on the file config/connection.js 
 3. on your mysql create 
+
 DROP DATABASE IF EXISTS setubully_db;
 CREATE DATABASE setubully_db;
 
