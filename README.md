@@ -79,9 +79,8 @@ Website will be showen on localhost:8080
 [html]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [node]: https://nodejs.org/en/docs/
 [mysql]: https://dev.mysql.com/doc/
-[heroku]: https://devcenter.heroku.com/categories/reference
-[github]: https://docs.github.com/en
 [bootstrap]: https://getbootstrap.com/
+
 ## Npm Packages
 
 - dotenv
