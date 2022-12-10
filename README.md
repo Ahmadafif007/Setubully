@@ -19,8 +19,9 @@
 1. [Desain Website](https://www.figma.com/file/H0FbYno4qUhD31tvkWVuCl/UI-SETUBULLY?node-id=0%3A1&t=2Z4PPOzqlFVIzm4p-1)
 2. [Project Brief]()
 3. [Vidio Demo]()
-3. [LoginSignUp](https://github.com/Ahmadafif007/Setubully/tree/LoginSignup)
-4. [Pelaporan](https://github.com/Ahmadafif007/Setubully/tree/Pelaporan)
+4. [Vidio Presentasi Project]()
+5. [LoginSignUp](https://github.com/Ahmadafif007/Setubully/tree/LoginSignup)
+6. [Pelaporan](https://github.com/Ahmadafif007/Setubully/tree/Pelaporan)
 
 ### How to use Repository :
 1. npm install
