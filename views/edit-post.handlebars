@@ -1,0 +1,20 @@
+<div class="card">
+<section class="card-body">
+    <form id="edit-post-form">
+        <label class="form-label" for="post-text">Edit post</label>
+        <div class="input-group mb-3">
+            <textarea class="form-control" id="post-text" rows="4">{{post_text}}</textarea>
+        </div>
+        <div class="d-grid gap-2">
+        <button type="submit" class="btn btn btn-secondary">Update</button>
+      </div>
+    </form>
+    <form id="delete-form">
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn btn-secondary">Delete Post</button>
+        </div>
+    </form>
+</section>
+</div>
+<script src="/js/edit-post.js"></script>
+<script src="/js/delete-post.js"></script>

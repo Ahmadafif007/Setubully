@@ -1,0 +1,106 @@
+<div class="col d-flex justify-content-center mx-5 mt-5 ">
+  <div
+    class="card d-flex justify-content-center mx-2 mt-6 bg-light text-black customCard"
+    style="width: 28rem;"
+  >
+    <div
+      class="card-body align mx-4 mt-4 bg-light text-black customCard"
+      style="width: 25rem;"
+    >
+      <h4 class="card-title">
+        Login
+      </h4>
+      <hr />
+      <form id="login-form" class="card-body">
+        <label class="form-label" for="username-login">Username</label>
+        <div class="input-group mb-3">
+          <input
+            id="username-login"
+            type="text"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default"
+          />
+        </div>
+
+        <label class="form-label" for="password-login">Password</label>
+        <div class="input-group mb-3">
+          <input
+            id="password-login"
+            autocomplete="current-password"
+            type="password"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default"
+          />
+        </div>
+        <div class="d-grid gap-3">
+          <button type="submit" class="btnLogin btn btn-secondary">Masuk</button>
+        </div>
+        <br>Belum Punya Akun?</br>
+        <div class="d-grid gap-3">
+        <a class="signup-link text-decoration-underline" href="/signup">Daftarkan Akun?</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="waves mt-5">
+<svg viewbox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      .wave {
+        animation: wave 4s linear infinite;
+      }
+
+      .wave1 {
+        animation: wave1 6s linear infinite;
+      }
+
+      .wave2 {
+        animation: wave2 8s linear infinite;
+      }
+
+      @keyframes wave {
+        0% {
+          transform: translateX(0%);
+        }
+
+        80% {
+          transform: translateX(100%);
+        }
+      }
+
+      @keyframes wave1 {
+        0% {
+          transform: scaleY(1.2) translateX(0%);
+        }
+
+        60% {
+          transform: scaleY(1.2) translateX(100%);
+        }
+      }
+
+      @keyframes wave2 {
+        0% {
+          transform: scaleY(.8) translateX(0%);
+        }
+
+        60% {
+          transform: scaleY(.8) translateX(100%);
+        }
+      }
+    </style>
+    <path id='sineWave' fill="#30B0FF" fill-opacity="0.5" d="M0,160 C320,300,420,300,740,160 C1060,20,1120,20,1440,160 V0 H0" />
+  </defs>
+  <use class="wave" href="#sineWave" />
+  <use class="wave" x="-100%" href="#sineWave" />
+  <use class="wave1" href="#sineWave" />
+  <use class="wave1" x="-100%" href="#sineWave" />
+  <use class="wave2" href="#sineWave" />
+  <use class="wave2" x="-100%" href="#sineWave" />
+</svg>
+</div>
+
+<style src="/public/css/style.css"></style>
+<script src="/js/login.js"></script>

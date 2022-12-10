@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="/css/form.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="over-container">
+            <div class="reporting-container">
+                <!-- Form 3 -->
+                <div class="context-title">
+                    <span class="context-bold">Detail Kejadian</span>
+                </div>
+                <form class="detail-container" method="post">
+                    <p>Apakah kamu pernah atau ingin melukai diri sendiri?</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio1">Gambar</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Video</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio3">Audio</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio4">Lainnya</label>
+                    </div>
+                    <div>
+                        <label for="inputText" class="form-label">Dimana lokasi saat kejadian tersebut terjadi?</label>
+                        <input type="text" id="inputText" class="form-control" aria-describedby="textHelpBlock">
+                    </div>
+                    <div>
+                        <label for="inputText" class="form-label">Jelaskan kronologi kejadian secara detail</label>
+                        <input type="text" id="inputText" class="form-control" aria-describedby="textHelpBlock">
+                    </div>
+                    <div>
+                        <label for="inputText" class="form-label">Seberapa sering kejadian tersebut terjadi?</label>
+                        <input type="text" id="inputText" class="form-control" aria-describedby="textHelpBlock">
+                    </div>
+
+                    <!--Form 4-->
+                    <div class="context-title">
+                        <span class="context-bold">Detail Kejadian</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Kapan kejadian tersebut terjadi?</label>
+                        <input class="form-control" type="datetime-local" id="formFile" />
+                    </div>
+                    <div>
+                        <label for="inputText" class="form-label">Hubungan apa yang dimiliki antara anda
+                            dengan pelaku?</label>
+                        <input type="text" id="inputText" class="form-control" aria-describedby="textHelpBlock">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Masukkan tautan atau unggah foto/video</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+
+                    <!-- Form 5 -->
+                    <div class="context-title">
+                        <span class="context-bold">Data diri anda</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputNama" class="form-label">Nama Lengkap</label>
+                        <input type="nama" class="form-control" id="exampleInputNama" aria-describedby="namaHelp">
+                        <div id="namaHelp" class="form-text">Tulis (anonim) jika anda memilih sebagai anonim</div>
+                    </div>
+                    <div>
+                        <label for="inputText" class="form-label">Jenis Kelamin</label>
+                        <input type="text" id="inputText" class="form-control" aria-describedby="textHelpBlock">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputNama" class="form-label">Alamat</label>
+                        <input type="nama" class="form-control" id="exampleInputNama" aria-describedby="namaHelp">
+                        <div id="namaHelp" class="form-text">Tulis (-) jika anda memilih sebagai anonim</div>
+                    </div>
+                    <div>
+                        <label for="inputText" class="form-label">No.Telepon/Email/Whatsapp</label>
+                        <input type="text" id="inputText" class="form-control" aria-describedby="textHelpBlock">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputNama" class="form-label">Kelas</label>
+                        <input type="nama" class="form-control" id="exampleInputNama" aria-describedby="namaHelp">
+                        <div id="namaHelp" class="form-text">Tulis (-) jika anda memilih sebagai anonim</div>
+                    </div>
+                    <button href="homepage.handlebars" type="submit" onclick="alert('Selamat formulir anda berhasil terkirim')" class="btn btn-info">Submit</button>
+                    
+            </div>
+            </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
