@@ -21,3 +21,19 @@
 3. [Pelaporan](https://github.com/Ahmadafif007/Setubully/tree/Pelaporan)
 
 <hr>
+###How to use Repository
+1. npm install
+  To install all package needed in this depedency
+2. Turn on your server mysql, and then adjust the dialect, user, and password of your mysql server. first adjust is in the file .env and then on the file config/connection.js 
+3. on your mysql create 
+DROP DATABASE IF EXISTS setubully_db;
+CREATE DATABASE setubully_db;
+
+CREATE TABLE milestones(id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR,
+description TEXT NOT NULL);
+
+INSERT into milestones values(1,'Muhammad Adji','Kita harus menghindari cikal bakal bullying.'),(2,'Afif','Yups. Thats right man'),(3,'Fian','Saya letih dibully terus nih guys'),(4,'Fivy','Sabar Guys'),(5,'Tama','Sharing your story and helping others'),(6,'Anonimous','With this new life that you have created for yourself, through all the hardhips, you have made it this far and have show to not only your friends and family but most importantly yourself that having a goal and staying dedicated can make all the difference to changing ones life around.'); 
+
+4. npm run start / npm start on your terminal repository
+Website will be showen on localhost:8080 
+
