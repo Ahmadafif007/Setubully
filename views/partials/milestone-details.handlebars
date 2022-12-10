@@ -1,25 +1,30 @@
-
-<div class="card
-          align
-          mx-4
-          mt-4
-          bg-light
-          text-black
-          customCard position-relative">
-       <a class="text-decoration-none card-header" href="/milestone/{{id}}">
-  
-    <h4 class="float-start">
-      {{name}} &#128221;
-    </h4>
-  </a>
-  {{!-- <hr /> --}}
-  <p class="card-body milestone-description">{{description}}</p>
-
- <div class="card-footer pt-3">
-    <div class="position-absolute bottom-0 end-0 ">
-   
-    <a class="me-3 text-decoration-none" href="/milestone/{{id}}">{{posts.length}} Posts</a>
-  </div>
- </div>
-
+<div class="mt-5">
+<section class="card-body">
+<div class="container mt-2 mb-5">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="d-flex justify-content-between p-2 px-3">
+                    <div class="d-flex flex-row align-items-center"> <img src="https://user-images.githubusercontent.com/82244776/134595680-b39c82e2-0d0d-40bb-a0d6-0a6cd7899227.png" width="50" class="rounded-circle">
+                        <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">&nbsp; {{name}} &#128221;</span> <small class="text-primary">{{user.about}}</small> </div>
+                    </div>
+                    <div class="d-flex flex-row mt-1 ellipsis"><small class="mr-2"> {{format_date date_created}}</small> <i class="fa fa-ellipsis-h"></i> </div>
+                </div> 
+                <div class="p-2">
+                    <p class="d-flex">{{description}}</p>
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i class="fa fa-smile-o ml-2"></i> </div>
+                        <div class="d-flex flex-row muted-color"> <span>2 comments &nbsp;</span><span class="ml-2"> Share</span> </div>
+                    </div>
+                    <hr>
+                    <div class="comments" style="text-align: center;">
+                        <a role="button" class="text-decoration-none card-header" href="/milestone/{{id}}">Post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 </div>
