@@ -69,11 +69,7 @@ Website will be showen on localhost:8080
 [<img align="left" width="26px" alt="html" src="https://user-images.githubusercontent.com/82244776/132110258-65db95d8-f35b-4a2d-a091-8051a6b6f4f2.png">][html]
 [<img align="left" width="26px" alt="nodejs" src="https://user-images.githubusercontent.com/82244776/134751947-5908a635-9d69-4dc7-8c4c-aeb9ea0fce66.png">][node]
 [<img align="left" width="26px" alt="mysql" src="https://user-images.githubusercontent.com/82244776/132110331-da9891ba-5eef-44c3-87db-869b91f34702.png">][mysql]
-[<img align="left" width="26px" alt="heroku" src="https://user-images.githubusercontent.com/82244776/132110346-720c197f-d193-4c6f-b84d-e9dc0420bba9.png">][heroku]
 [<img align="left" width="26px" alt="bootstrap" src="https://user-images.githubusercontent.com/82244776/134751737-53bbac67-b5a8-486d-a009-ca59d3e26e6b.png">][bootstrap]
-[<img align="left" width="26px" alt="github" src="https://user-images.githubusercontent.com/82244776/132110367-f5e3b9f5-b3cb-49c1-be7c-aded0df1b8c1.png">][github]<br><br>
-
-
 [javascript]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [CSS]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [html]: https://developer.mozilla.org/en-US/docs/Web/HTML
