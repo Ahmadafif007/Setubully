@@ -11,9 +11,9 @@
 4. F350X0909 - M Ardan Dimyathi Alfian
 
 ### Fitur - Fitur
-* Tips & Informasi : 
-* Pelaporan :
-* Forum Diskusi :
+* Tips & Informasi : Pada bagian ini terdapat tips, informasi, dan motivasi yang terkait dengan bullying untuk pengguna ataupun korban bulying.   
+* Pelaporan : Pada fitur ini diperuntukkan bagi korban yang ingin melaporkan tindakan bulying. Disini terdapat formulir yang harus diisi dengan lengkap.
+* Forum Diskusi : Pada fitur ini berupa diskusi yang bisa dilakukan untuk berbagi informasi ataupun cerita oleh pengguna.
 
 ### Daftar Isi :
 1. [Desain Website](https://www.figma.com/file/H0FbYno4qUhD31tvkWVuCl/UI-SETUBULLY?node-id=0%3A1&t=2Z4PPOzqlFVIzm4p-1)
