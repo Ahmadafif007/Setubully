@@ -18,8 +18,8 @@
 ### Daftar Isi :
 1. [Desain Website](https://www.figma.com/file/H0FbYno4qUhD31tvkWVuCl/UI-SETUBULLY?node-id=0%3A1&t=2Z4PPOzqlFVIzm4p-1)
 2. [Project Brief]()
-3. [Vidio Demo]()
-4. [Vidio Presentasi Project]()
+3. [Vidio Demo](https://drive.google.com/file/d/1c7SgorKAW9wYF8E_RQfZmgWtONaWYNZr/view)
+4. [Vidio Presentasi Project](https://drive.google.com/file/d/1c7SgorKAW9wYF8E_RQfZmgWtONaWYNZr/view)
 5. [LoginSignUp](https://github.com/Ahmadafif007/Setubully/tree/LoginSignup)
 6. [Pelaporan](https://github.com/Ahmadafif007/Setubully/tree/Pelaporan)
 
